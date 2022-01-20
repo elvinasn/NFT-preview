@@ -8,9 +8,8 @@ body {
     box-sizing: border-box;
 }
 .card{
-    height: 585px;
-    max-width: 100%;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 20px;
     margin: 25px;
@@ -19,7 +18,8 @@ body {
     position: relative;
 }
 .equilibrium-img{
-    width:300px;
+    width:100%;
+    max-width: 300px;
     height:auto;
     margin: 25px;
     border-radius: 10px;
@@ -31,7 +31,7 @@ p {
     font-size: 18px;
 }
 .title{
-    margin-top: 0px;
+    margin: 10px 25px;
     font-weight: 1000;
     font-size: 20px;
 }
@@ -58,6 +58,8 @@ p {
 hr{
     width: 300px;
     color: hsl(215, 51%, 70%);
+    border-top: 1px;
+    opacity: 0.5;
 }
 .avatar{
     border:white 1px solid;
